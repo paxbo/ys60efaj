@@ -17,4 +17,4 @@ def imshow(X,width, height):
     myNewImage.show()
 
     #np.random.rand(100,100)
-    interact(imshow,X=fixed(X), width=(1,2000,5), height=(1, 2000, 5));
+interact(imshow,X=fixed(X), width=(1,2000,5), height=(1, 2000, 5));
