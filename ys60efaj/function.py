@@ -1,6 +1,6 @@
-import numpy as np
+#import numpy as np
 #from ipywidgets import interact, fixed
-from PIL import Image
+#from PIL import Image
 
 #X,width, height
 
