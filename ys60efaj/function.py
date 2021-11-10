@@ -2,7 +2,7 @@ import numpy as np
 from ipywidgets import interact, fixed
 from PIL import Image
 from matplotlib import cm
-X=[]
+
 
 def imshow(X,width, height):
     """
@@ -11,6 +11,7 @@ def imshow(X,width, height):
     We should be able to install this package in Google Colab from your Git
     repo.
     """
+
     myImage = Image.fromarray(X)
     myNewImage = myImage.resize((width,height))
     print("Image size: {}".format(myNewImage.size))
