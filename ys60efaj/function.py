@@ -17,4 +17,4 @@ def imshow(X,width, height):
     myNewImage.show()
 
    # sgsheh
-interact(imshow,X=fixed(np.random.rand(100,100)), width=(1,2000,5), height=(1, 2000, 5));
+ interact(imshow,X=fixed(np.random.rand(100,100)), width=(1,2000,5), height=(1, 2000, 5));
