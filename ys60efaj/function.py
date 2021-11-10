@@ -1,10 +1,10 @@
-#import numpy as np
-#from ipywidgets import interact, fixed
-#from PIL import Image
+import numpy as np
+from ipywidgets import interact, fixed
+from PIL import Image
 
-#X,width, height
 
-def imshow():
+
+def imshow(X,width, height):
     """
     You should create a way to resize an image from an array X.
     The use of widgets is optional but you can take a look to interact.
@@ -16,5 +16,5 @@ def imshow():
     print("Image size: {}".format(myNewImage.size))
     myNewImage.show()
 
-    
+   # sgsheh
 interact(imshow,X=fixed(np.random.rand(100,100)), width=(1,2000,5), height=(1, 2000, 5));
