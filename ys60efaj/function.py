@@ -2,7 +2,7 @@ import numpy as np
 from ipywidgets import interact, fixed
 from PIL import Image
 from matplotlib import cm
-
+X=[]
 
 def imshow(X,width, height):
     """
