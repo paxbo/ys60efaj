@@ -11,10 +11,10 @@ def imshow():
     We should be able to install this package in Google Colab from your Git
     repo.
     """
-    #myImage = Image.fromarray(X)
-   # myNewImage = myImage.resize((width,height))
-    #print("Image size: {}".format(myNewImage.size))
-    #myNewImage.show()
-    print("Helllo")
+    myImage = Image.fromarray(X)
+    myNewImage = myImage.resize((width,height))
+    print("Image size: {}".format(myNewImage.size))
+    myNewImage.show()
+
     
-#interact(imshow,X=fixed(np.random.rand(100,100)), width=(1,2000,5), height=(1, 2000, 5));
+interact(imshow,X=fixed(np.random.rand(100,100)), width=(1,2000,5), height=(1, 2000, 5));
